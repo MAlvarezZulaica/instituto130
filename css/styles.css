@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;  
+}
+
+h3 {
+    color: #87badc;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.boton-personalizado {
+    text-decoration: none;
+    padding: 7px;
+    width: 15%;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #58d039;
+    border: none;
+    box-shadow: 2px 2px 5px #1a1a1a;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000d10;
+    top: 0;
+    width: 100%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    border-right: 1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 79.3px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #3c4859;
+}
+
+.secciones{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, 300px);
+    grid-gap: 1px;
+
+    font: 20px Tahoma, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.aulas-virtuales {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    color: white;
+    background: #4f6d7a url('img/aulas-virtuales.jpg') no-repeat scroll left center;
+}
+
+.ingreso-2018 {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;  
+    color: white;
+    background: #c0d6df url('img/ingreso.jpg') no-repeat scroll left center;
+}
+
+.oferta-academica {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center; 
+    color: white;
+    background: #dbe9ee url('img/oferta-academica.jpg') no-repeat scroll left center;
+    line-height: 1;
+}
+
+.oferta-academica a {
+    text-decoration: underline;
+}
+
+.novedades {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    color: white;
+    background: #4f6d7a url('img/novedades.jpg') no-repeat scroll left center;
+}
+
+.carreras {
+    grid-column: 1;
+    grid-row: 5;
+    text-align: center;
+    color: white;
+    background: #c0d6df url('img/carreras.jpg') no-repeat scroll left center;  
+}
+
+.contacto {
+    grid-column: 1;
+    grid-row: 6;
+    color: white;
+    text-align: center;
+    background: #dbe9ee url('img/contacto.jpg') no-repeat scroll left center;
+}
+
+.footer {  
+    width: 100%;
+    background-color: #3c4859;
+    color: black;
+    text-align: center;
+}
+
+.boton-subir {
+    position: relative;
+    top: 20;
+    left: 600;
+}
+
+
